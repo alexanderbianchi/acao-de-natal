@@ -1,0 +1,62 @@
+//-----------------------------------------------
+//  Font
+//-----------------------------------------------
+* {
+    @include transition(all 0.3s linear);
+}
+body {
+    font: normal 12px/120% "Droid Sans", Verdana, Sans-serif;
+    overflow-x: hidden;
+}
+
+//-----------------------------------------------
+//  blocks
+//-----------------------------------------------
+#app {
+    min-width: 320px;
+}
+
+.wrap {
+    @include box-sizing(border-box);
+    margin: auto;
+    max-width: 855px;
+    padding: 10px;
+    width: 100%
+}
+
+a {
+    color: #ff00a8;
+}
+
+//-----------------------------------------------
+//  Loading
+//-----------------------------------------------
+.loading {
+    @include centered(fixed);
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+
+    i {
+        background: url("../images/loading.gif") no-repeat center;
+        display: block;
+        height: 175px;
+        width: 100%;
+    }
+
+    .loading-content {
+        @include centered(absolute);
+        height: 300px;
+        text-align: center;
+        width: 250px;
+        z-index: 1;
+    }
+
+    .loading-overlay {
+        @include centered(absolute);
+        @include opacity(0.9);
+        background: #fff;
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+//-----------------------------------------------
+//  LIBS
+//-----------------------------------------------
+@import
+"compass/css3",
+"partials/normalize-main",
+
+//-----------------------------------------------
+//  Structure
+//-----------------------------------------------
+"structure/helpers",
+"structure/global",
+"structure/header",
+"structure/footer",
+
+//-----------------------------------------------
+//  Pages
+//-----------------------------------------------
+"pages/home",
+"pages/mobile",
+"partials/animations";

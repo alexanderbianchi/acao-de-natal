@@ -1,0 +1,6 @@
+.app-title img,
+.app-header .app-subtitle img,
+.about-us__content .content-image,
+.content-text p {
+    @include opacity(0);
+}

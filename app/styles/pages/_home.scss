@@ -1,0 +1,43 @@
+#app {
+    position: relative;
+    z-index: 2;
+}
+.bg {
+    @include centered(fixed);
+    @include opacity(.2);
+    background: url("../images/bg-drawn-kids.jpg") no-repeat center center;
+    z-index: 1;
+}
+
+//-----------------------------------------------
+//  About us
+//-----------------------------------------------
+.about-us__header {
+    @extend .visually-hidden;
+}
+.about-us__content{
+    p {
+        font-size: 13px;
+        line-height: 150%;
+        text-align: justify;
+        text-indent: 9%;
+    }
+
+
+    .content-text {
+        width: 55%;
+    }
+
+    .content-block {
+        margin-bottom: 30px
+    }
+
+    .content-image {
+        margin-top: -34px
+    }
+}
+
+.content-block {
+    clear:both;
+    display: block;
+}

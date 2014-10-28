@@ -1,0 +1,27 @@
+.app-footer {
+    .bg-childs {
+        background: url("../images/bg-footer.png") no-repeat center top;
+        display: block;
+        height: 250px;
+        margin-bottom: -25px;
+        position: relative;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+.app-footer__content {
+    background: #fff;
+    padding-top: 20px;
+}
+
+//-----------------------------------------------
+//  Brands list
+//-----------------------------------------------
+.brands-list {
+    list-style: none;
+
+    .brand-item {
+        width: 32.5%
+    }
+}
