@@ -1,0 +1,45 @@
+<form action="">
+    <fieldset>
+        <legend>Participar</legend>
+
+        <div class="field">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="field">
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf">
+        </div>
+        <div class="field">
+            <label for="cep">CEP</label>
+            <input type="text" name="cep" id="cep">
+        </div>
+        <div class="field">
+            <label for="genre">Quero apadrinhar</label>
+            <select name="genre" id="genre">
+                <option>Selecione</option>
+                <option value="menina">Menina</option>
+                <option value="menino">Menino</option>
+            </select>
+        </div>
+        <div class="field">
+            <label for="age">Preferência de idade</label>
+            <select name="age" id="age">
+                <option>Selecione</option>
+                <option value="bebe">Bebê</option>
+                <option value="1_3">1 à 3 anos</option>
+                <option value="4_8">4 à 8 anos</option>
+                <option data-genre="boy" value="10_12_boy">10 à 12</option>
+                <option data-genre="girl" value="10_12_girl">10 à 12</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <input type="submit" value="Participar">
+        </div>
+    </fieldset>
+</form>
